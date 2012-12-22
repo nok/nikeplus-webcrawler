@@ -1,6 +1,6 @@
 # NikePlus-WebCrawler
 
-A ruby webcrawler, which grabs data of your personal [Nike+](http://nikeplus.nike.com/plus/) runs.
+A ruby webcrawler, which grabs fine-grained data of your personal [Nike+](http://nikeplus.nike.com/plus/) runs.
 
 > If you like the script and want to support my passion, feel free to make any amount of [donation](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=R38NLZUATHUJ6).
 
