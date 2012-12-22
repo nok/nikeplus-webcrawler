@@ -64,7 +64,7 @@ ruby_script
 
 ## Parsers
 
-Example [NikeRunParser.pde](https://raw.github.com/voidplus/NikePlus-WebCrawler/master/examples_of_parsers/processing_2_sketch/NikeRunParser/NikeRunParser.pde) for [Processing 2](http://processing.org/):
+Example [NikeRunParser](https://github.com/voidplus/NikePlus-WebCrawler/tree/master/examples_of_parsers/processing_2_sketch/NikeRunParser) for [Processing 2](http://processing.org/):
 
 ![Snapshot](https://raw.github.com/voidplus/NikePlus-WebCrawler/master/examples_of_parsers/processing_2_sketch/NikeRunParser/snapshot.png)
 
