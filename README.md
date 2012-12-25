@@ -13,7 +13,7 @@ unzip ~/Downloads/NikePlus-WebCrawler-master.zip
 cd ~/Downloads/NikePlus-WebCrawler-master/ruby_script/
 ``` 
 
-Run the webcrawler:
+Execute the [ruby script](https://github.com/voidplus/NikePlus-WebCrawler/blob/master/ruby_script/nikeplus_webcrawler.rb):
 
 ```
 ruby nikeplus_webcrawler.rb
