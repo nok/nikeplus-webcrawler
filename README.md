@@ -17,7 +17,6 @@ Execute the RubyGem with or without arguments:
 ```
 nikeplus_webcrawler
 nikeplus_webcrawler [LOGIN_MAIL] [LOGIN_PASS]
-
 ``` 
 
 ## RubyScript
