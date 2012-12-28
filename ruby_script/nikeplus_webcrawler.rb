@@ -9,14 +9,14 @@ require 'json'
 include REXML
 
 
-def line
+def puts_line
 	puts "------------------------------------------"
 end
 
 
-line
+puts_line
 puts "NikePlus-WebCrawler"
-line
+puts_line
 
 print "Type your mail: "
 email = STDIN.gets.chomp
@@ -24,7 +24,7 @@ email = STDIN.gets.chomp
 print "Type your pass: "
 password = STDIN.gets.chomp
 
-raw = `curl --cookie-jar cookies \
+`curl --cookie-jar cookies \
 	--data 'email=#{email}' \
 	--data 'password=#{password}' \
 	--output ./login.xml \
@@ -34,11 +34,11 @@ raw = `curl --cookie-jar cookies \
 doc = Document.new(File.new("login.xml"))
 res = ( doc.elements['serviceResponse/header/success'].get_text=="true" )
 
-line
+puts_line
 
 if res
 	puts "Login successful."
-	line
+	puts_line
 
 	all = {}
 
@@ -74,7 +74,7 @@ if res
 
 	json_activity["activities"].each do |activity|
 		id = activity['activity']['activityId']
-		all[ id ] = activity
+		all[id] = activity
 	end
 
 	# download runs
@@ -85,11 +85,10 @@ if res
 		FileUtils.mkdir_p 'data_runs/json'
 		FileUtils.mkdir_p 'data_runs/xml'
 
-		num = 1;
-		all.each do |e|
+		all.each_with_index do |e,i|
 
 			id = e[0]
-			puts "ID ##{id} (#{num}/#{all.length})"
+			puts "ID ##{id} (#{(i+1)}/#{all.length})"
 
 			raw = `curl -s --cookie cookies \
 				http://nikeplus.nike.com/plus/activity/running/#{name}/detail/#{id} \
@@ -104,16 +103,14 @@ if res
 			File.open("data_runs/xml/#{id}.xml", 'w+'){ |f| f.write( JSON.parse(raw).to_xml(:root=>:run)) }
 
 			sleep 2
-
-			num += 1
 		end
 
-		line
+		puts_line
 		puts "Ready! ./data_runs/json & ./data_runs/xml"
-		line
+		puts_line
 	end
 
 else
 	puts "Login error."
-	line
+	puts_line
 end

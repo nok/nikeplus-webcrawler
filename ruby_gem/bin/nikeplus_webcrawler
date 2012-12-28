@@ -1,0 +1,11 @@
+#!/usr/bin/env ruby
+
+require 'nikeplus_webcrawler'
+
+if ARGV.size==2
+	NikeplusWebcrawler.new(ARGV[0],ARGV[1])
+elsif ARGV.size==0
+	NikeplusWebcrawler.new
+else
+	exit
+end
