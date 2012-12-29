@@ -6,7 +6,7 @@ A webcrawler as RubyGem and RubyScript, which grabs fine-grained data of your pe
 
 ## RubyGem
 
-Install the RubyGem:
+Install the RubyGem '[nikeplus_webcrawler](https://rubygems.org/gems/nikeplus_webcrawler)':
 
 ```
 gem install nikeplus_webcrawler
