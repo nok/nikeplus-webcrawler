@@ -1,6 +1,6 @@
 # NikePlus-WebCrawler
 
-A webcrawler as RubyGem and RubyScript, which grabs fine-grained data of your personal [Nike+](http://nikeplus.nike.com/plus/) runs.
+A webcrawler as RubyGem, which grabs fine-grained data of your personal [Nike+](http://nikeplus.nike.com/plus/) runs and saves these as XML and JSON files.
 
 > If you like the gem or script and want to support my passion, feel free to make any amount of [donation](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=R38NLZUATHUJ6).
 
