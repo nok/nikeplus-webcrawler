@@ -75,6 +75,8 @@ Ready! ./data_runs/json & ./data_runs/xml
         └── ...
 ```
 
+Example: [2076258238.json](https://github.com/voidplus/nikeplus-webcrawler/blob/master/ruby_script/data_runs/json/2076258238.json), [2076258238.xml](https://github.com/voidplus/nikeplus-webcrawler/blob/master/ruby_script/data_runs/xml/2076258238.xml)
+
 ## Dependencies
 
 * [Ruby 1.9.3](http://www.ruby-lang.org/)
