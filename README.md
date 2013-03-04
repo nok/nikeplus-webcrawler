@@ -88,11 +88,19 @@ Example: [2076258238.json](https://github.com/voidplus/nikeplus-webcrawler/blob/
 
 System: OSX 10.8.2
 
-## Examples
+## Parsers
 
-[XML Parser](https://github.com/voidplus/NikePlus-WebCrawler/tree/master/examples_of_parsers/processing_2_sketch/NikeRunParser) Example for [Processing 2](http://processing.org/):
+* [XML Parser](https://github.com/voidplus/NikePlus-WebCrawler/tree/master/examples_of_parser/processing_2_sketch/NikeRunParser) for [Processing 2](http://processing.org/) ([Snapshot](https://raw.github.com/voidplus/NikePlus-WebCrawler/master/examples_of_parser/processing_2_sketch/NikeRunParser/snapshot.png)).
 
-![Snapshot](https://raw.github.com/voidplus/NikePlus-WebCrawler/master/examples_of_parsers/processing_2_sketch/NikeRunParser/snapshot.png)
+## Visualizations
+
+![1](https://raw.github.com/voidplus/NikePlus-WebCrawler/master/examples_of_visualization/1.png)
+
+![2](https://raw.github.com/voidplus/NikePlus-WebCrawler/master/examples_of_visualization/2.png)
+
+![3](https://raw.github.com/voidplus/NikePlus-WebCrawler/master/examples_of_visualization/3.png)
+
+![4](https://raw.github.com/voidplus/NikePlus-WebCrawler/master/examples_of_visualization/4.png)
 
 ## License
 
